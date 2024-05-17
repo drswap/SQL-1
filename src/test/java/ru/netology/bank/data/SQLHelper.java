@@ -15,7 +15,7 @@ public class SQLHelper {
     }
 
     private static Connection getConn() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/test_db", "test_user", "test_password");
+        return DriverManager.getConnection("jdbc:mysql://localhost:9999/test_db", "test_user", "test_password");
     }
 
     public static DataHelper.VerificationCode getVerificationCode() throws SQLException {
